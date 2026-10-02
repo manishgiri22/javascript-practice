@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>assignment</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      body {
+        color: white;
+        background-color: black;
+        padding-left: 7vh;
+      }
+      .botton {
+        padding: 2vh 5vh;
+        height: 20vh;
+        width: 20vh;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      h2,
+      #hd {
+        margin-left: 2vw;
+      }
+      .box {
+        height: 5vw;
+        width: 5vw;
+        background-color: white;
+        border-radius: 10px;
+        margin: 1vw 2vw;
+        color: black;
+        padding: 1.5vw;
+        transition:all 1s ease-in-out;
+      }
+      .box2{
+        display:flex;
+        gap:1vw;
+        padding:1vw;
+
+      }
+      button{
+        background-color: rgb(128, 104, 33);
+        color:rgb(249, 249, 249);
+        border-radius:1vh;
+        padding:0px 1vh;
+      }
+    </style>
+  </head>
+
+  <body>
+    <p>assignment 1 !</p>
+    <br>
+    <div class="botton">
+      <button class="changebg" id="grn">green</button>
+      <button class="changebg" id="bl">blue</button>
+      <button class="changebg" id="re">red</button>
+    </div>
+    <h2>this is heading</h2>
+    <button id="hd">click me</button>
+
+    <div class="box">box</div>
+
+    <div class="box2">
+      <button id="inc">increase</button>
+      <h4>0</h4>
+      <button id="dec">Decrease</button>
+    </div>
+    <script src="assignment_dom.js" on></script>
+  </body>
+</html>

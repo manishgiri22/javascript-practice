@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            border:1px solid black;
+        }
+        .counter{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="heading">hello heading</h1>
+    <button id="btn" onclick="makeAlert()">click me</button>
+
+    <div onmouseenter="makeAlert()">
+
+    </div>
+
+    <input type="text" id="input" onkeypress="keypress()">
+<div class="counter">
+
+    <button onclick="decrement()">-</button>
+    <h1 id="countmsg">0</h1>
+    <button id="addcounter">+</button>
+    <button id="setcounter">reset</button>
+</div>
+
+    <script src="eventlistener.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+     <style>
+        *{ 
+            margin: 0;
+            padding: 0;
+            box-sizing:border-box;
+        }
+        body{
+            margin-left:20px;
+            display:flex;
+            flex-direction:column;
+           justify-content:center;
+            gap:4px;
+        }
+        .box{
+            height:100px;
+            width:100px;
+            border:1px solid black;
+            background-color:blue;
+            color:white;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            border-radius:12px;
+            transition:all 1s ease-in-out;
+
+        }
+        .box:hover{
+            transform:scale(1.2);
+            background:linear-gradient(to right,blue,red);
+
+        }
+        button{
+            width:5vw;
+            padding:5px 0px;
+
+        }
+
+     </style>
+
+</head>
+<body>
+    <h1 id="hw">Hello World</h1>
+
+    <div id="bulb">
+
+    <button>ON</button>
+    <p>something is adding</p>
+
+    </div>
+
+    <div class="box">
+        box1
+    </div>
+    <div class="box">
+        box2
+    </div>
+    <div class="box">
+        box3
+    </div>
+
+    <h1 id="hii">hello1</h1>
+    <h1 id="hii">hello2</h1>
+    <h1>hello3</h1>
+
+    <button>lastbutton</button>
+    <div class="card">
+        
+
+    </div>
+    <script src="eventlistener.js"></script>
+</body>
+</html>
